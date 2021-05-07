@@ -1,0 +1,45 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.card {
+  align-self: auto;
+  background-color: white;
+  height: 250px;
+  width: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+.top_of_card{padding:1px;}
+.top_of_card h1 {padding-left:10px;}
+.top_of_card img {float:right; padding-top: 10px; padding-right: 10px;}
+
+.middle_of_card { display: flex;}
+  .left-side {float:left; width:50%; flex-basis: 300px; padding-left: 10px;}
+  .right-side {float:right; width:50%; flex-basis: 300px; padding-top: 20px; padding-left: 15px;}
+  .right-side input {width: 200px; font-family: 'Shadows Into Light Two', cursive;}
+
+.bottom_of_card{
+  background-color: pink;
+  /* padding:10px; */
+  bottom: 30px;
+  position: fixed;
+  left: 35%;
+}
+
+.bottom_of_card input {
+  background-color: #3CBC8D;
+  height: 30px;
+  width: 150px;
+  font-family: 'Shadows Into Light Two', cursive;
+}

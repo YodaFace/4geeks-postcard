@@ -1,0 +1,49 @@
+<!doctype HTML5>
+<!-- This exercise covers the following fundamentals:
+1. Basic structure for every HTML5 website.
+2. The Link tag to import CSS Rules.
+3. Using google fonts.
+3. Using the different selectors available in CSS.
+4. Working with boxes: border, padding and margins.
+5. Overflow.
+6. Using a simple form.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Postcard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="card">
+
+      <div class="top_of_card">
+          <img src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true" alt="4Geeks Logo" width="50" height="50">
+          <h1>Post Card For Will</h1>
+      </div>
+
+      <div class="middle_of_card">
+          <div class="left-side">
+            <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+          </div>
+
+          <div class="right-side">
+            <input type="text" name="Name">
+            <input type="text" name="Email">
+            <input type="text" name="Comment">
+          </div>
+      </div>
+
+      <div class="bottom_of_card">
+        <input type="submit" value="Send Will a Postcard">
+      </div>
+
+    </section>
+
+</body>
+</html>
